@@ -1,0 +1,27 @@
+nav{
+    background-color: black;
+    padding: 30px;
+
+    ul{
+        li{
+            padding: 30px;
+            display: inline;
+            font-size: 25px;
+
+            a{
+                display: inline-block;
+                color: whitesmoke;
+                text-decoration: none;
+                font-family: monospace;
+                transition: 0.5s;
+
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(1.1);
+                    color: orange;
+                }
+            }
+        }
+
+    }
+}
